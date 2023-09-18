@@ -2,11 +2,14 @@
     <div class="container">
         <div>
         </div>
-        <div class="center-container">
+        <div [ngClass]="{
+            isSoft : currentLevel === 'soft',
+            isModerate : currentLevel === 'moderate',
+            isHot : currentLevel === 'hot',
+            centerContainer : !currentLevel
+        }">
             <h2>{{questionPlaceholder}}</h2>
-        </div>
-        <div class="center-container">
-            <button (click)="randomizeQuestion()">Gerar Pergunta</button>
+            <button (click)="generateRadomQuestion().description">Gerar Pergunta</button>
         </div>
     </div>
 </body>

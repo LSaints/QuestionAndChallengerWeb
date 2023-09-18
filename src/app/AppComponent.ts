@@ -12,6 +12,9 @@ export class AppComponent implements OnInit {
   title = 'QuestionAndChallenger';
   questionPlaceholder: string = 'Começar game ;)';
   questions: Question[];
+  history: Question[];
+
+  currentLevel: string;
 
   constructor(private services: QuestionServices) { }
 
@@ -25,12 +28,12 @@ export class AppComponent implements OnInit {
     });
   }
 
-  randomizeQuestion() {
+  generateRadomQuestion() {
     const random = Math.floor(Math.random() * this.questions.length);
-    const question = this.questions[random]
+    const question = this.questions[random];
     this.questionPlaceholder = question.description;
-    console.log(question.level);
-    
-    return question.level;
+    this.currentLevel = question.level
+
+    return question;
   }
 }

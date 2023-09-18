@@ -8,7 +8,7 @@ import { Question } from "src/models/question.model";
 })
 export class QuestionServices {
 
-    SERVER_URL = 'https://localhost:7150/api/'
+    SERVER_URL = 'https://localhost:60431/api/'
 
     constructor(private http: HttpClient) { }
 
