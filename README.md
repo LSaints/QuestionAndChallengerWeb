@@ -1,27 +1,13 @@
-# QuestionAndChallenger
+# QuestionAndChallenger-Web
+Aqui se encontra a aplicação frontend da API [QuestionAndChallengerAPI](https://github.com/LSaints/QuestionAndChalleger-WebApi) 
+## Tecnologias utilizadas:
+- Typescript
+- Angular
+## Imagens
+![1](https://github.com/LSaints/QuestionAndChallengerWeb/assets/132153413/bcf3c258-12cd-4553-9b63-16b76691fa7b)
+![3](https://github.com/LSaints/QuestionAndChallengerWeb/assets/132153413/dae034b8-43bb-4708-8f7f-9fab70df5a04)
+![4](https://github.com/LSaints/QuestionAndChallengerWeb/assets/132153413/c838c7bc-fb4b-4bd0-8b39-27e0c6e085dc)
+![2](https://github.com/LSaints/QuestionAndChallengerWeb/assets/132153413/1e77bdf6-885d-4a33-ae05-83755c962cf3)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Como podemos ver acima é uma aplicação simples que utiliza a API e exibe a descrição das repostas na tela,
+e muda a cor do texto dependendo do nivel da pergunta
