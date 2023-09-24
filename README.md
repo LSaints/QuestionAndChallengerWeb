@@ -9,5 +9,5 @@ Aqui se encontra a aplicação frontend da API [QuestionAndChallengerAPI](https:
 ![4](https://github.com/LSaints/QuestionAndChallengerWeb/assets/132153413/c838c7bc-fb4b-4bd0-8b39-27e0c6e085dc)
 ![2](https://github.com/LSaints/QuestionAndChallengerWeb/assets/132153413/1e77bdf6-885d-4a33-ae05-83755c962cf3)
 
-Como podemos ver acima é uma aplicação simples que utiliza a API e exibe a descrição das repostas na tela,
+Como podemos ver acima é uma aplicação simples que utiliza a API e exibe a descrição das perguntas na tela,
 e muda a cor do texto dependendo do nivel da pergunta
